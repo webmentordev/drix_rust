@@ -38,7 +38,7 @@
 <script setup>
     const server = ref(null);
     onMounted(() => {
-        $fetch("https://api.battlemetrics.com/servers/23949375").then(result => {
+        $fetch("https://api.battlemetrics.com/servers/24212450").then(result => {
             server.value = result.data.attributes;
         });
     })
